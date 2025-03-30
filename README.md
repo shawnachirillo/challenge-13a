@@ -1,33 +1,30 @@
-# React + TypeScript + Vite
+# Candidate Search 🔍
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This React + TypeScript application allows users to browse random GitHub profiles and either **accept** or **reject** them as candidates. Accepted profiles are stored in local storage, and users can revisit their saved candidates at any time.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-* [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md), which uses [Babel](https://babeljs.io/) for Fast Refresh
-* [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc), which uses [SWC](https://swc.rs/) for Fast Refresh
+- Fetches real GitHub users using the GitHub API
+- Displays user profile data (avatar, username, location, email, company, and profile link)
+- Allows users to accept or reject candidates
+- Stores accepted candidates in local storage
+- Styled with a modern, responsive layout
 
-## Expanding the ESLint configuration
+## Screenshot
 
-If you're developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+![App Screenshot](./screenshot.png)
 
-* Configure the top-level `parserOptions` property as follows:
+## Live Demo
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+👉 [View Deployed Site on Netlify](https://challenge-13a.netlify.app)
 
-* Replace `plugin:@typescript-eslint/recommended` with `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`.
-* Optionally, add `plugin:@typescript-eslint/stylistic-type-checked`.
-* Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` and `plugin:react/jsx-runtime` to the `extends` list.
+## Built With
 
----
-© 2024 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
+- [React](https://reactjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Vite](https://vitejs.dev/)
+- [GitHub REST API](https://docs.github.com/en/rest)
+- [React Icons](https://react-icons.github.io/react-icons/)
+
+##  Folder Structure
+
